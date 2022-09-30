@@ -1,0 +1,123 @@
+/* .match-list-elements {
+  padding: 30px;
+  background-color: #1e293b;
+  color: #fff;
+  font-family: 'Bree Serif';
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px 20px;
+  width: 20%;
+}
+
+.match-logo {
+  height: 160px;
+  width: 150px;
+  margin: 16px 0;
+}
+
+.match-heading {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 200;
+  margin: 16px 0;
+}
+
+.match-para {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  margin: 16px 0;
+}
+
+.match-status {
+  font-size: 18px;
+}
+
+.win {
+  color: #18ed66;
+}
+
+.lost {
+  color: #e31a1a;
+} */
+
+/* Write your CSS here */
+.match-card {
+  list-style: none;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  width: 45%;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    width: 32%;
+    margin-right: 10px;
+  }
+}
+
+.match-card-name {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .match-card-name {
+    font-size: 22px;
+  }
+}
+
+.match-card-result {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-result {
+    font-size: 18px;
+  }
+}
+
+.match-card-logo {
+  width: 70px;
+  height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.match-status {
+  font-size: 18px;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 768px) {
+  .match-status {
+    font-size: 20px;
+    font-family: 'Bree Serif';
+  }
+}
+
+.Won {
+  color: #18ed66;
+}
+
+.Lost {
+  color: #e31a1a;
+}
